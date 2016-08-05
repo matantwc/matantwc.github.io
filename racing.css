@@ -1,0 +1,194 @@
+
+/*Navbar*/
+#one{
+	height: 50px;
+	width: 80%;
+	background-color: #3EB4E7;
+	margin: 0 auto;
+	list-style-type: none;
+	padding: 0;
+
+}
+
+#one li{
+	width: 20%;
+	height:100%;
+	float: left;
+
+}
+
+#one a{
+	text-decoration: none;
+	color: red;
+	width: 100%;
+	height: 100%;
+	font-family: Impact,Haettenschweiler,"Franklin Gothic Bold",Charcoal,"Helvetica Inserat","Bitstream Vera Sans Bold","Arial Black","sans serif";
+	font-weight: 1;
+	text-align: center;
+	display: block;
+	line-height: 50px;
+	border-bottom: 3px solid #3EB4E7;
+	transition:border-bottom .4s;
+	font-size: 40px;
+
+}
+
+#one a:hover{
+	border-bottom: 3px solid black;
+}
+/*Welcome Mesage*/
+#box{
+	width: 80%;
+	height: 100px;
+	background-color: #5C5555;
+	margin: 0 auto;
+}
+/*Game Bar*/
+#two{
+	list-style-type: none;
+	width: 100%;
+	height: 100%;
+	background-color: yellow;
+	padding: 0;
+
+}
+#two a{
+ color: red;
+ font-size: 35px;
+ display: block;
+ width: 100%;
+ height: 100%;
+ text-align: center;
+ text-decoration: none;
+ font-family: Optima,Segoe,"Segoe UI",Candara,Calibri,Arial,sans-serif;
+}
+
+#two li{	
+	float: left;
+	height: 20px;
+	width:16.6666666667%;
+
+
+}
+/*Games*/
+#ridethebus,#club,#carparking,#carcity,#racer,#kart{
+	height: 480px;
+	width: 800px;
+	margin: 1000px auto;
+
+}
+/*Top */
+#top{
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	background-color: blue;
+	height: 40px;
+	width: 100px;
+}
+#top a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	line-height: 40px;
+	text-decoration: none;
+	color: white;
+	font-family: Arial;
+}
+/*Game Text*/
+p{
+	width: 700px;
+	font-family: Arial;
+	color: red;
+	background-color: blue;
+}
+/*space invader not shown*/
+#space-invader{
+
+  box-shadow:
+    0 0 0 1em red,
+    0 1em 0 1em red,
+    -2.5em 1.5em 0 .5em red,
+    2.5em 1.5em 0 .5em red,
+    -3em -3em 0 0 red,
+    3em -3em 0 0 red,
+    -2em -2em 0 0 red,
+    2em -2em 0 0 red,
+    -3em -1em 0 0 red,
+    -2em -1em 0 0 red,
+    2em -1em 0 0 red,
+    3em -1em 0 0 red,
+    -4em 0 0 0 red,
+    -3em 0 0 0 red,
+    3em 0 0 0 red,
+    4em 0 0 0 red,
+    -5em 1em 0 0 red,
+    -4em 1em 0 0 red,
+    4em 1em 0 0 red,
+    5em 1em 0 0 red,
+    -5em 2em 0 0 red,
+    5em 2em 0 0 red,
+    -5em 3em 0 0 red,
+    -3em 3em 0 0 red,
+    3em 3em 0 0 red,
+    5em 3em 0 0 red,
+    -2em 4em 0 0 red,
+    -1em 4em 0 0 red,
+    1em 4em 0 0 red,
+    2em 4em 0 0 red;
+
+    background: red;
+    width: 1em;
+    height: 1em;
+    overflow: hidden;
+
+    margin: 50px 0 70px 65px;
+    position: fixed;
+ }
+/*Side Colums*/
+ #colums,#colums2{
+ 	width: 10%;
+ 	height:1000px;
+ 	background-color: red;
+ 
+
+ }
+
+ #colums2{
+ 	position: fixed;
+ 	top: 0;
+ 	right: 0;
+ }
+
+
+#colums{
+
+	position:fixed;
+	top: 0;
+	left: 0;
+
+}
+/*Picture*/
+#car {
+    position: absolute;
+    height: 750px;
+    width: 74%;
+    top: 190px;
+    left: 236px;
+    border-right: 10px solid blue;
+    border-bottom: 10px solid blue;
+    border-top: 10px solid blue;
+    border-left: 10px solid blue;
+}
+
+
+
+
+
+
+
+
+
+
+
